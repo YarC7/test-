@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && echo '/* /index.html  200' | cat >build/_redirects",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -18,7 +18,8 @@
     "react-helmet": "^6.1.0",
     "react-helmet-async": "^2.0.5",
     "react-leaflet": "^4.2.1",
-    "react-router-dom": "^7.1.1"
+    "react-router-dom": "^7.1.1",
+    "vite-plugin-ssr": "^0.4.142"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
