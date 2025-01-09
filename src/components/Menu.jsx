@@ -17,8 +17,8 @@ const Menu = () => {
         <div className="absolute bg-black text-white left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl  z-10">
           <a href="/">Homepage</a>
           <a href="/about">About</a>
-          <a href="/">Projects</a>
-          <a href="/">Contact</a>
+          <a href="/#">Projects</a>
+          <a href="/#">Contact</a>
         </div>
       )}
     </div>

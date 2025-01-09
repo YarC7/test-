@@ -29,12 +29,12 @@ const Navbar = () => {
               {language === "vi" ? "About" : "Giới thiệu"}
             </span>
           </a>{" "}
-          <a href="/pages">
+          <a href="/#">
             <span className="font-medium text-lg hover:bg-gray-200 active:bg-gray-300 focus:outline-none focus:ring focus:ring-gray-300 gap-3 transition-colors ">
               {language === "vi" ? "Projects" : "Bài viết"}
             </span>
           </a>{" "}
-          <a href="/contact">
+          <a href="/#">
             <span className="font-medium text-lg hover:bg-gray-200 active:bg-gray-300 focus:outline-none focus:ring focus:ring-gray-300 gap-3 transition-colors ">
               {language === "vi" ? "Contact" : "Liên hệ"}
             </span>

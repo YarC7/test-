@@ -1,6 +1,11 @@
+link Demo trang web: https://simple123web.netlify.app/
+
 Tech : React, Vite, Tailwindcss
+
 Libraries: emailjs.com, lucide-react, react-helmet
+
 Các Plugin SEO: react helmet
+
 Giao diện: Hoàn chỉnh 100% từ yêu cầu chung đến yêu cầu chi tiết.
 Giao diện Trang chủ:
 ![alt text](image.png)
